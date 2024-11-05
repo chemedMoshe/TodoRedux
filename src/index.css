@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef040483;
+}
+.hello{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.grid{
+    padding-top: 2rem;
+    height: 80%;
+   max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.titleTodo{
+    font-size: 50px;}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    box-shadow: 2px 2px 5px #000;
+    text-align: center;
+    padding: 10px;
+}
+input{
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration:solid;  
+    color: #0202f8;
+    font-size: 30px;
+}

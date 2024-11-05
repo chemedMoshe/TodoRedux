@@ -1,4 +1,3 @@
-import React from 'react'
 import TodoModel from '../Models/TodoModel'
 import { useSelector } from 'react-redux'
 import Card from './card'
@@ -9,10 +8,13 @@ export default function Grid() {
 
   return (
     <>
+    <NavLink to='/'>Home</NavLink>
+    <div className="titleTodo">
+    <h1>Todo List</h1>
+    </div>
     <div className="grid">
       {todoList.map((todo) => <Card todo={todo} key={todo.id}/>)}
     </div>
-    <NavLink to='/'>Home</NavLink>
     </>
   )
 }
