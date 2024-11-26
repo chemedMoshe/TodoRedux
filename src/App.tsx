@@ -1,4 +1,3 @@
-import Card from "./component/card"
 import { Route, Routes } from "react-router-dom"
 import Hello from "./component/Hello"
 import Grid from "./component/Grid"
